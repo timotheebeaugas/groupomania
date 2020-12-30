@@ -1,0 +1,11 @@
+{
+    "databaseConnect": {
+        "database": "*",
+        "username": "*",
+        "password": "*",
+        "host": "*",
+        "dialect": "*"
+    },
+    
+    "tokenSecretKey": "*"
+}

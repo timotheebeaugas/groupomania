@@ -1,0 +1,40 @@
+// seizes values
+$width: 700px;
+
+// small screens
+@media screen and (max-width: $width)
+{
+    .icon{
+        display: none;
+    }
+
+    .avatars{
+        width: 50px;
+        height: 50px;
+    }
+
+    .grid{
+        grid-template-columns: 25% 75%; 
+    }
+
+    .medias{
+        max-width: 90%;
+    } 
+}
+
+// large screens
+@media screen and (min-width: $width)
+{
+    .avatars{
+        width: 66px;
+        height: 66px;
+    }
+
+    .grid{
+        grid-template-columns: 15% 85%; 
+    }
+
+    .medias{
+        max-width: 500px;
+    } 
+}
